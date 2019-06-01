@@ -27,7 +27,7 @@ CuboidMaker.prototype.cuboid = function(){
 */
 CuboidMaker.prototype.surfaceArea = function(){
 	return 2(this.length * this.width + this.length * height + this.width * this.height);
-}
+};
 
 /* == Step 4: Create a new object that uses CuboidMaker ==
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
